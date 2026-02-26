@@ -11,3 +11,6 @@ ai-env/
 __pycache__/
 *.pyc
 *.pyo
+
+# Other
+*.log
