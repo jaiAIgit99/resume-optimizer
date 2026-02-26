@@ -30,20 +30,22 @@ Supports **.txt**, **.docx**, and **.pdf** resume files.
 git clone https://github.com/yourusername/resume-optimizer.git
 cd resume-optimizer
 
-2. Create a virtual environment
+### 2. Create a virtual environment
+
 python3 -m venv ai-env
 source ai-env/bin/activate  # Mac/Linux
 # ai-env\Scripts\activate    # Windows PowerShell
 
-3. Install dependencies
+### 3. Install dependencies
+
 pip install -r requirements.txt
 
-4. Add your OpenAI API key
+### 4. Add your OpenAI API key
 
 Create a .env file in the project root:
 OPENAI_API_KEY=your_openai_api_key_here
 
-Usage
+### Usage
 
 Run the Streamlit app:
 
@@ -57,7 +59,7 @@ Click Get AI Suggestions
 
 Review AI feedback directly in the browser
 
-Folder Structure
+### Folder Structure
 resume-optimizer/
 ├── resume_app.py        # Main Streamlit web app
 ├── resume-optimizer.py  # Original Python script (optional)
@@ -66,7 +68,7 @@ resume-optimizer/
 ├── .gitignore           # Files/folders Git should ignore
 └── README.md            # Project documentation
 
-Dependencies
+### Dependencies
 
 Python 3.9+
 
@@ -84,7 +86,7 @@ Install all dependencies via:
 
 pip install -r requirements.txt
 
-Notes
+### Notes
 
 Uses GPT-3.5-turbo for compatibility with new OpenAI accounts
 
@@ -92,6 +94,6 @@ Keep .env private; do not push to GitHub
 
 Supports multiple file formats for real-world resumes
 
-License
+### License
 
 MIT License © [Jaiprakash Narayanappa]
